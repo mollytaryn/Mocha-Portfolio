@@ -1,0 +1,23 @@
+{
+  "name": "Mocha-Portfolio",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mollytaryn/Mocha-Portfolio",
+  "authors": [
+    "mollytaryn <mollytaryn@gmail.com>"
+  ],
+  "description": "This is a project that demonstrates front-end js with Mocha and CHai",
+  "main": "public/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "chai": "~1.10.0"
+  }
+}
