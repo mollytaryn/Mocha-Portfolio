@@ -13,8 +13,31 @@ describe('hello', function () {
   });
 });
 
+describe('totalStocks', function() {
+  it('should return a sum of the LastPrices', function(){
+    var stocks1 = [
+                       { Symbol: 'AAPL', LastPrice: 12.45 },
+                       { Symbol: 'MSFT', LastPrice: 23.56 }
+                     ],
+    stocks2 = [
+                       { Symbol: 'BNA', LastPrice: 0.10 },
+                       { Symbol: 'SBUX', LastPrice: 0.20 }
+                     ];
+
+    totalStocks(stocks1).should.be.closeTo(36.01, 0.01);
+    totalStocks(stocks2).should.be.closeTo(0.30, 0.01);
+
+  });
+});
+
 describe('DOM', function () {
   describe('table', function () {
+    before(function () {
+      if (window.__karma__) {
+        $('body').append('<table><thead></thead><tbody></tbody></table>')
+      }
+    });
+
     beforeEach(function () {
       $('tbody').empty();
     });
