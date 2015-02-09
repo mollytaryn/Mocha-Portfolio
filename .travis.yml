@@ -9,3 +9,6 @@ before_install:
   - sh -e /etc/init.d/xvfb start
 script:
   - npm run test-once
+env:
+  global:
+    secure: PPgERwAp3rmjPlpT/8gQRwC4fE5piapg5HG497o49qCzZv/gOfP2prQJ3LVpYCqLsfHXNyiaIr0KOcMxUV0LPqQeOn3r9CEtDD10prsaGXB6GFq4gtsLd92HKOJyN5WZHtnrU6uGkUb1Mu+nLjxzlX7KpjJ/pQB2+Mk+WoZEy9M=
