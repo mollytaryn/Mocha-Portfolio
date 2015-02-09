@@ -7,3 +7,5 @@
 [![package.json Dependency Status](https://www.versioneye.com/user/projects/54d8df70c1bbbd9bd700008d/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54d8df70c1bbbd9bd700008d)
 
 [![bower Dependency Status](https://www.versioneye.com/user/projects/54d8df7cc1bbbd9bd70000f3/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54d8df7cc1bbbd9bd70000f3)
+
+[![NSS-Cohort-8](https://img.shields.io/badge/NSS-cohort--8-6a1ab0.svg)](http://i.imgur.com/hrq5wS9.jpg)
